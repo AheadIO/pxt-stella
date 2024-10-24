@@ -1,0 +1,27 @@
+{
+    "name": "STELLA",
+    "version": "1.0.0",
+    "description": "The intelligent programming dog STELLA produced",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "_locales/STELLA-jsdoc-strings.json",
+        "_locales/STELLA-strings.json",
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
